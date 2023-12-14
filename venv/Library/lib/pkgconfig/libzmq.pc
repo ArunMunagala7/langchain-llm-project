@@ -1,0 +1,12 @@
+prefix=c:/Users/Dell/Documents/GitHub/langchain-llm-project/venv/Library
+exec_prefix=c:/Users/Dell/Documents/GitHub/langchain-llm-project/venv/Library
+libdir=c:/Users/Dell/Documents/GitHub/langchain-llm-project/venv/Library/lib
+includedir=c:/Users/Dell/Documents/GitHub/langchain-llm-project/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.4
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
